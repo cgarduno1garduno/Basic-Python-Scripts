@@ -6,3 +6,4 @@
 
 - Coursera: Programming for Everybody (U. of Michigan)
 - Coursera: Python Data Structures    (U. of Michigan)
+- Codecademy: Student Becomes the Teacher
