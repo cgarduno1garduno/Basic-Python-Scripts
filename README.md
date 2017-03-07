@@ -4,6 +4,6 @@
 
 #### Content comes from: 
 
-- Coursera: Programming for Everybody (U. of Michigan)
+- Codecademy: Calculate Grades
 - Coursera: Python Data Structures    (U. of Michigan)
-- Codecademy: Student Becomes the Teacher
+- Coursera: Programming for Everybody (U. of Michigan)
