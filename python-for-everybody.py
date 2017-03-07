@@ -3,8 +3,18 @@
 ##
 ## Some basic python for Coursera: Python for Everybody by U. of Michigan
 ################################################################################
+# Contents:
+# Assignment 1.0 - Hello, world!
+# Assignment 2.1 - Print user name
+# Assignment 2.2 - Calculate pay
+# Assignment 3.1 - Calculate pay, consider overtime
+# Assignment 3.2 - Return grade
+# Assignment 4.0 - Calculate pay function
+# Assignment 5.0 - Return max,min values for user input of ints
+################################################################################
 
-# Assignment 1
+
+# Assignment 1.0
 # Hello, world!
 print "Hello, world!"
 
@@ -47,7 +57,7 @@ except:
   print "Please enter a valid score:"
   quit()
 
-# Assignment 4
+# Assignment 4.0
 # Define a computepay function that calculates pay & considers overtime
 def computepay(h,r):
   if h <= 40:
@@ -58,7 +68,7 @@ hrs = float(raw_input("Enter Hours:")); rate = float(raw_input("Enter Rate:"))
 pay = computepay(hrs,rate)
 print pay
 
-# Assignment 5
+# Assignment 5.0
 # Request user input (integers) and when the user enters 'done'
 # 	the largest and smallest numbers will be returned
 largest = None
