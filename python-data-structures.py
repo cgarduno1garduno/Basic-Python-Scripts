@@ -4,12 +4,21 @@
 ## Basic python data structures for Coursera: Python Data Structures
 ##		by U. of Michigan
 ################################################################################
+# Contents:
+# Assignment  6.0 - Subset string
+# Assignment  7.1 - File input and output uppercase text
+# Assignment  7.2 - File input, print average spam confidence
+# Assignment  8.1 - File input, split lines, return set of words in file
+# Assignment  8.2 - File input, print out emails addresses + occurrences
+# Assignment  9.0 - Return most frequent emailer
+# Assignment 10.0 - Find distribution of emails by hour
+################################################################################
 
-
-# Assignment 6
+# Assignment 6.0
 # Find character and subset string
 text = "X-DSPAM-Confidence:    0.8475"; numpos = text.find('0')
 print float(text[numpos:])
+
 
 # Assignment 7.1
 # Reads through file and ouputs text in upper case
@@ -20,6 +29,7 @@ for letter in fh:
   letter = letter.rstrip()
   print letter.upper()
 
+  
 # Assignment 7.2
 # This is using a file called mbox-short.txt
 # Read text, find spam confidence, print average
@@ -34,6 +44,7 @@ for line in fh:
         
 print 'Average spam confidence:',num_total / count
 
+
 # Assignment 8.1
 # Read in file, split lines, return set of words used in text
 fname = raw_input("Enter file name: ")
@@ -44,6 +55,7 @@ for line in fh:
         lst.append(i)
 lst.sort()
 print list(set(lst))
+
 
 # Assignment 8.2
 # Open mbox-short.txt, read line by line, take lines that start with 'From' and find
@@ -57,6 +69,7 @@ for i in fh:
     print i.split()[1]
     
 print "There were", count, "lines in the file with From as the first word"
+
 
 # Assignment 9 
 # Working with dictionaries, read through mbox-short.txt, find greatest number of emails
