@@ -4,6 +4,9 @@
 ## Introductory python scripts for Codecademy 
 ##   These functions calculate student's average scores and return 
 ##   final scores + final letter grade
+##     homework: 10% of final grade
+##     quizzes : 30% of final grade
+##     exams   : 60% of final grade
 ################################################################################
 
 # student data
