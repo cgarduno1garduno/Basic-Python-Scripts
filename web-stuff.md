@@ -16,3 +16,16 @@ while True:
 	print data
 mysock.close()
 ```
+
+#### Using urllib
+```python
+# This is way nicer than using sockets module
+import urllib
+
+# Establish connection
+fhand = urllib.urlopen('http://www.py4inf.com/code/romeo.txt')
+
+# Print data
+for line in fhand:
+	print line.rstrip()
+```
